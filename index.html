@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="rockpaperscissors.js"></script>
   </head>
   <body>
@@ -18,23 +18,25 @@
         <h3 class="score-msg">First to 5 points wins!</h3>
         <div class="score-container">
           <div class="score-card">
-            <div class="player-pick"></div>
-            <p class="player-score"></p>
+            <div class="player-pick">🧍</div>
+            <p class="player-score">Player: 0</p>
           </div>
           <div class="score-card">
-            <div class="computer-pick"></div>
-            <p class="computer-score"></p>
+            <div class="computer-pick">🤖</div>
+            <p class="computer-score">Computer: 0</p>
           </div>
         </div>
       </div>
       <div class="options">
-          <button id="rockBtn" class="btn btn-square">Rock</button>
-          <button id="paperBtn" class="btn btn-square">Paper</button>
-          <button id="scissorsBtn" class="btn btn-square">Scissors</button>
+        <button id="rockBtn" class="btn btn-square">
+          <span class="sign">✊</span>
+        </button>
+        <button id="paperBtn" class="btn btn-square"><span class="sign">✋</span></button>
+        <button id="scissorsBtn" class="btn btn-square"><span class="sign">✌️</span></button>
       </div>
     </section>
     <footer class="footer">
-        <p>Copyright © 2022 Ricky Mavlingcar</p>
+      <p>Copyright © 2022 Ricky Mavlingcar</p>
     </footer>
   </body>
 </html>
